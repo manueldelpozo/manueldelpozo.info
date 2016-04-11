@@ -165,7 +165,7 @@
             "item4": {
               "icon": "icons/per-languages.png",
               "title": "LANGUAGES",
-              "text": "// SPANISH: { MOTHER TONGUE } // ENGLISH: { FLUENT C1 } // FRENCH: { FLUENT B2 } // GERMAN: { BASIC A2 } // POLISH: { BASIC A1 } // ",
+              "text": "// SPANISH: { MOTHER TONGUE } // ENGLISH: { FLUENT C1 } // FRENCH: { FLUENT B2 } // GERMAN: { BASIC A2 } // POLISH: { BASIC A2 } // ",
               "link": false
             },
             "item5": {
@@ -244,31 +244,37 @@
             "item1": {
               "icon": "icons/tech-frontend.png",
               "title": "FRONT-END",
-              "text": "// HTML5 // CSS3: { LESS } // JAVASCRIPT: { VANILLA JS, JQUERY, JSON, AJAX, BACKBONE-MARIONETTE, ANGULARJS } // BOOTSTRAP //",
+              "text": "// HTML5 // CSS3: { SASS } // JAVASCRIPT: { VANILLA JS, POLYMER, NODEJS, BACKBONE-MARIONETTE, ANGULARJS, JQUERY } // BOOTSTRAP //",
               "link": false
             },
             "item2": {
               "icon": "icons/tech-backend.png",
               "title": "BACK-END",
-              "text": "// JAVA // PHP: { SIMFONY } // XML: { XSL, XSD,  XPath } // MYSQL: { QUERY, FUNCTION, PROCEDURE } //",
+              "text": "// JAVA // PHP: { SIMFONY } // NODEJS // XML: { XSL, XSD,  XPath } // MYSQL: { QUERY, FUNCTION, PROCEDURE } //",
               "link": false
             },
             "item3": {
-              "icon": "icons/tech-work.png",
-              "title": "WORKFLOW",
-              "text": "// GITHUB // JIRA-AGILE // GRUNT JS TASK RUNNER // JENKINS // SLACK // DROPBOX // GOOGLE DRIVE // TEAMVIEWER //",
+              "icon": "icons/tech-scrum.png",
+              "title": "SCRUM",
+              "text": "// YOUTRACK // JIRA-AGILE // SLACK // ZOOM // TEAMVIEWER // SKYPE //",
               "link": false
             },
             "item4": {
+              "icon": "icons/tech-work.png",
+              "title": "WORKFLOW AND TEST",
+              "text": "// GITHUB // GITLAB // TORTOISE // GULP & GRUNT // SAUCELAB // JENKINS // HIPCHAT //",
+              "link": false
+            },
+            "item5": {
               "icon": "icons/tech-graphic.png",
               "title": "GAPHIC DESIGN",
               "text": "// PHOTOSHOP // DREAMWEAVER // EDGE ANIMATE // AFTER-EFFECTS // FIREWORKS // FLASH PROFESSIONAL // IN-DESIGN // ILLUSTRATOR //",
               "link": false
             },
-            "item5": {
+            "item6": {
               "icon": "icons/tech-arch.png",
               "title": "ARCHITECTURAL DESIGN",
-              "text": "// REVIT // AUTOCAD // 3DS-MAX+VRAY // SKETCHUP // ARCHICAD // VECTORWORKS // CYPECAD //",
+              "text": "// REVIT // AUTOCAD // 3DS-MAX+VRAY // SKETCHUP // VECTORWORKS // CYPECAD //",
               "link": false
             }
           }
@@ -335,6 +341,13 @@
               "lng": -3.703790,
               "info": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP) - MADRID - 2012/15",
               "icon": "icons/maps/works-qsdm.png"
+            },
+            "city8": {
+              "city": "Leszno",
+              "lat": 51.829760,
+              "lng": 16.597281,
+              "info": "<strong>WEB COMPONENTS DEVELOPER </strong><br> C&C TECHNOLOGY - LESZNO - 2015/16",
+              "icon": "icons/maps/works-gopopup.png"
             }
           }
         }
@@ -352,24 +365,30 @@
           "text": false,
           "list": {
             "item1": {
+              "icon": "icons/works-cc.png",
+              "title": "<strong>WEB COMPONENTS DEVELOPER </strong><br> C&C TECHNOLOGY - LESZNO (POLAND) - 2016",
+              "text": "// POLYMER COMPONENTS // SCRUM MASTERING // DEVELOPMENT, INTEGRATION AND TESTING // SOFTWARE DESIGN // CREATION DE DEMO PAGES // VERSION CONTROL WITH GITLAB //",
+              "link": "https://www.cctechnology.pl/"
+            },
+            "item2": {
               "icon": "icons/works-gopopup.png",
               "title": "<strong>FRONT-END DEVELOPER </strong><br> GO-POPUP - BERLIN (GERMANY) - 2015",
               "text": "// RESPONSIVE WEB DESING WITH CSS, LESS AND BOOTSTRAP // HANDLE JQUERY, BACKBONE AND SCALA CODING FOR IMPLEMENTATION OF NEW FEATURES // CONFIGURATION OF SCALA BUILD TOOL // DEVELOPMENT, INTEGRATION AND TESTING OF A PHP APPLICATION TO MIGRATE DATA // CUSTOMIZED GOOGLE MAP MARKERS // LANDING PAGES WITH ADVANCED DEVELOPMENT OF WORDPRESS THEMING // APPLY AGILE PROJECT COLLABORATION // VERSION CONTROL WITH GITHUB //",
               "link": "http://www.gopopup.com/en"
             },
-            "item2": {
+            "item3": {
               "icon": "icons/works-qsdm.png",
               "title": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP) - MADRID (SPAIN) - 2012/15",
               "text": "// RESEARCH AND GATHER DATA // MOCKUPS AND WEB INTERFACE SKETCHES // WIREFRAMES AND STORYBOARDS // WEB EMULATOR AND INTERACTIVE PROTOTYPES WITH FLASH // CREATION AND POST PRODUCTION OF PROMOTIONAL VIDEOS // CUSTOMIZED DYNAMIC HIGHCHARTS // CUSTOMIZED AJAX AUTOCOMPLETE AND TWITTER TYPEAHEAD IMPLEMENTATION // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER AND DATA VERIFICATION // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN WITH BOOTSTRAP AND CSS MEDIA QUERY // INTEGRATION OF GOOGLE ANALYTICS //",
               "link": "http://queserademi.es/"
             },
-            "item3": {
+            "item4": {
               "icon": "icons/works-web.png",
               "title": "<strong>WEB APPLICATION DEVELOPER </strong><br> IES JOSÉ PLANES - MURCIA (SPAIN) - 2013/15",
               "text": "// JAVA INTERNSHIP MANAGEMENT SYSTEM: { ER-MODEL DOCUMENTS, JBDC APPLICATIONS } // WEB APP PROJECTS: { PHP MVC APPLICATIONS, THEMATIC WEB TUNCC, CHAT & VOTING SURVEY WITH AJAX, MINESWEEPER JQUERY GAME, SYMFONY BUNDLE PROJECT, PORTFOLIO APPLICATION, ADVANCED WORDPRESS - REMODELAHOME, RECIPE LIST WITH ANGULARJS, CLIENT-EMAIL BOX WITH BACKBONE-MARIONETTE } //",
               "link": "http://manueldelpozo.github.io/"
             },
-            "item4": {
+            "item5": {
               "icon": "icons/works-au10etdeco.png",
               "title": "<strong>FLASH WEB DESIGNER </strong><br> AU 10 ET DÉCO - CLERMONT FERRAND (FRANCE) - 2011",
               "text": "// WEB PROJECT MANAGEMENT // USER INTERACTION DESIGN // DEVELOPMENT OF FLASH ANIMATIONS // MOCKUPS AND PAGE LAYOUTS // DREAMVEAWER AND FLASH DESIGN // PHOTOGRAPHY AND MONTAGE //",
