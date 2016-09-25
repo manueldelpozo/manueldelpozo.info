@@ -97,7 +97,7 @@ if( $pfinal_text == 'map' )
 
   <?php if ( $id_template != 0 ) { ?>
     descomp();
-  <?php } else if ($_POST["id_template"] == "init") { ?>
+  <?php } else if (isset($_POST["id_template"]) && $_POST["id_template"] == "init") { ?>
     descomp();
     $('#video').fadeIn("slow");
     seeVideo();
@@ -396,7 +396,6 @@ if( $pfinal_text == 'map' )
                          
                         <div class="col-md-12 col-xs-12 embed-responsive-16by9" id="video">
                             <video class="embed-responsive-item" height='100%' width="100%" controls>
-                              <source src="video/videowebCV.webm" type="video/webm">
                               <source src="video/videowebCV.mp4" type="video/mp4">
                               <source src="video/videowebCV.ogv" type="video/ogg">
                               Your browser does not support the video tag.

@@ -53,20 +53,20 @@
             "item3": {
               "icon": "icons/about-mail.png",
               "title": "HOW TO CONTACT ME",
-              "text": { "mailarch" : "mndelpozo@gmail.com" , "mailweb" : "mdp.webdeveloper@gmail.com" },
-              "link": { "mailarch" : "mailto:mndelpozo@gmail.com" , "mailweb" : "mailto:mdp.webdeveloper@gmail.com" }
+              "text": { "mailweb" : "mdp.webdeveloper@gmail.com", "mailarch" : "mndelpozo@gmail.com" },
+              "link": { "mailweb" : "mailto:mdp.webdeveloper@gmail.com", "mailarch" : "mailto:mndelpozo@gmail.com" }
             },
             "item4": {
               "icon": "icons/about-linkedin.png",
               "title": "MY LINKEDIN PROFILE",
-              "text": { "linkedinarch" : "www.linkedin.com/in/manueldelpozo" , "linkedinweb" : "www.linkedin.com/in/delpozodeveloper" },
-              "link": { "linkedinarch" : "https://wwww.linkedin.com/in/manueldelpozo" , "linkedinweb" : "https://wwww.linkedin.com/in/delpozodeveloper" }
+              "text": { "linkedinweb" : "www.linkedin.com/in/delpozodeveloper", "linkedinarch" : "www.linkedin.com/in/manueldelpozo" },
+              "link": { "linkedinweb" : "https://wwww.linkedin.com/in/delpozodeveloper", "linkedinarch" : "https://wwww.linkedin.com/in/manueldelpozo" }
             },
             "item5": {
               "icon": "icons/about-webprofile.png",
               "title": "MY SITES",
-              "text": { "arch" : "www.archmanudelpozo.com" , "web" : "wwww.manueldelpozo.github.io"  },
-              "link": { "arch" : "http://manudelpozo.blogspot.com/" , "web" : "https://github.com/manueldelpozo/wa-manueldelpozo.github.io.git" }
+              "text": { "gitlab": "www.gitlab.com/mdelpozo", "github": "www.github.com/manueldelpozo", "web" : "wwww.manueldelpozo.github.io", "arch" : "www.archmanudelpozo.com" },
+              "link": { "gitlab": "www.gitlab.com/mdelpozo", "github": "www.github.com/manueldelpozo", "web" : "https://github.com/manueldelpozo/wa-manueldelpozo.github.io.git", "arch" : "http://manudelpozo.blogspot.com/" }
             }
           }
         }
@@ -159,7 +159,7 @@
             "item3": {
               "icon": "icons/per-team.png",
               "title": "TEAM WORK AND COMMUNICATION",
-              "text": "Resourceful team player who excels at building trusting relationships with customers and colleagues. // Ability to communicate advanced concepts with a diverse workforce in multicultural settings // Confluence and workflow with GITHUB + JIRA-AGILE + SLACK ",
+              "text": "Resourceful team player who excels at building trusting relationships with customers and colleagues. // Ability to communicate advanced concepts with a diverse workforce in multicultural settings // Confluence and workflow with AGILE methodology: team SCRUM MASTER ",
               "link": false
             },
             "item4": {
@@ -191,36 +191,42 @@
           "text": false,
           "list": {
             "item1": {
+              "icon": "icons/edu-webagile.png",
+              "title": "<strong>AGILE DEVELOPMENT SPECIALIZATION </strong><br> UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
+              "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
+              "link": false
+            },
+            "item2": {
               "icon": "icons/edu-webdevelopment.png",
               "title": "<strong>WEB APPLICATION DEVELOPMENT </strong><br> IES JOSÉ PLANES - MURCIA (SPAIN) - 2013/15",
               "text": "// OBJECT-ORIENTED PROGRAMMING // RELATIONAL DATABASES (ER-MODEL) // DMBS (SQL) // COMPUTER SYSTEMS // WEB APP INTERFACE DESIGN // WEB SERVER ADMINISTRATION // SUBNETTING // PROJECT MANAGEMENT // CMS // UI-UX DESIGN // RESPONSIVE WEB DESIGN // ENGLISH FOR IT //",
               "link": false
             },
-            "item2": {
+            "item3": {
               "icon": "icons/edu-webmobile.png",
               "title": "<strong>WEBAPPS FOR MOBILE DEVICES (FIREFOX-OS) </strong><br> MIRADAX - COURSE ONLINE - 2014",
               "text": "// GEOLOCATION API // SVG AND CANVAS // JSON // TOUCH EVENTS // JQUERY AND ZEPTO // DOM // RESPONSIVE WEB DESIGN HTML5 AND CSS3 // FIREFOX WEB DEVELOPER TOOLS //",
               "link": false
             },
-            "item3": {
+            "item4": {
               "icon": "icons/edu-webdesign.png",
               "title": "<strong>WEB DESIGN & WEB INTEGRATION COURSES </strong><br> FORMATO FORMACIÓN + ACADEMIA CIMBRA - MURCIA (SPAIN) - 2011/13",
               "text": "// ADOBE CREATIVE SUITE: { PHOTOSHOP, DREAMWEAVER, FIREWORKS, FLASH PROFESSIONAL, IN-DESIGN, EDGE ANIMATE, AFTER-EFFECTS } // WEB INTEGRATION: { SITE USABILITY, SEO POSITIONING, WEB STANDARDS (W3C), BROWSER COMPATIBILITY, DIGITAL MARKETING TRENDS } //",
               "link": false
             },
-            "item4": {
+            "item5": {
               "icon": "icons/edu-architecture.png",
               "title": "<strong>M. ARCHITECTURE ENGINEERING AND LANDSCAPE </strong><br> UNIVERSITY OF ALICANTE - ALICANTE (SPAIN) - 2003/11",
               "text": "// HOUSING AND PUBLIC FACILITIES // RENOVATION PROJECT // LANDSCAPE AND URBAN PLANNING // SUSTAINABLE HOUSING STRATEGIES // STRUCTURAL CALCULATION // HOME AUTOMATION PROJECTS // BUILDING SYSTEMS // PATHOLOGIES AND COST ESTIMATING //",
               "link": false
             },
-            "item5": {
+            "item6": {
               "icon": "icons/edu-archiulster.png",
               "title": "<strong>BSC(HONS) ARCHITECTURAL TECHNOLOGY AND MANAGEMENT </strong><br> UNIVERSITY OF ULSTER - BELFAST (NI UNITED KINGDOM) - 2008/09 ",
               "text": "// BUILDING SYSTEMS DETAILS // CAR SHOWROOM MUSEUM // SHOPPING MALL IN DONEGALL PLACE //",
               "link": false
             },
-            "item6": {
+            "item7": {
               "icon": "icons/edu-archicourses.png",
               "title": "<strong>OTHER ARCHITECTURE COURSES </strong><br> UNIVERSITY OF ALICANTE + POLYTHEC. UNIVERSITY OF CARTAGENA - ALICANTE + MURCIA (SPAIN) - 2002/11",
               "text": "// BUILDING ENGINEERING // HOME AUTOMATION // UNIVERSAL ACCESIBILITY // SOFTWARE FOR STRUCTURAL CALCULATION // BUILDING CONCRETE PATHOLOGIES // VIRTUAL STGE DESIGN WITH 3DS-MAX //",
@@ -244,25 +250,25 @@
             "item1": {
               "icon": "icons/tech-frontend.png",
               "title": "FRONT-END",
-              "text": "// HTML5 // CSS3: { SASS } // JAVASCRIPT: { VANILLA JS, POLYMER, NODEJS, BACKBONE-MARIONETTE, ANGULARJS, JQUERY } // BOOTSTRAP //",
+              "text": "// HTML5 // CSS3: { SASS, LESS } // JAVASCRIPT: { VANILLA JS, POLYMER, BACKBONE-MARIONETTE, ANGULARJS, JQUERY } //",
               "link": false
             },
             "item2": {
-              "icon": "icons/tech-backend.png",
-              "title": "BACK-END",
-              "text": "// JAVA // PHP: { SIMFONY } // NODEJS // XML: { XSL, XSD,  XPath } // MYSQL: { QUERY, FUNCTION, PROCEDURE } //",
+              "icon": "icons/tech-node.png",
+              "title": "BUILDING & TESTING",
+              "text": "// NODE JS // NPM // BOWER // GULP // GRUNT // JENKINS // HIPCHAT // WCT // MOCHA JS // CHAI JS // SAUCELAB //",
               "link": false
             },
             "item3": {
               "icon": "icons/tech-scrum.png",
-              "title": "SCRUM",
-              "text": "// YOUTRACK // JIRA-AGILE // SLACK // ZOOM // TEAMVIEWER // SKYPE //",
+              "title": "TEAM WORKFLOW",
+              "text": "// SVG: { GITLAB, GITHUB, TORTOISE } // AGILE: { YOU-TRACK, ATLASSIAN, SCRUMBLR, SLACK } // VIDEO-CONFERENCE: { ZOOM, TEAMVIEWER, SKYPE } //",
               "link": false
             },
             "item4": {
-              "icon": "icons/tech-work.png",
-              "title": "WORKFLOW AND TEST",
-              "text": "// GITHUB // GITLAB // TORTOISE // GULP & GRUNT // SAUCELAB // JENKINS // HIPCHAT //",
+              "icon": "icons/tech-backend.png",
+              "title": "BACK-END",
+              "text": "// JAVA // PHP: { SYMFONY 2 + DOCTRINE } // PYTHON // XML: { XSL, XSD, XPath } // MYSQL //",
               "link": false
             },
             "item5": {
@@ -274,7 +280,7 @@
             "item6": {
               "icon": "icons/tech-arch.png",
               "title": "ARCHITECTURAL DESIGN",
-              "text": "// REVIT // AUTOCAD // 3DS-MAX+VRAY // SKETCHUP // VECTORWORKS // CYPECAD //",
+              "text": "// REVIT // AUTOCAD // 3DS-MAX+VRAY // SKETCHUP // ARCHICAD // VECTORWORKS // CYPECAD //",
               "link": false
             }
           }
@@ -294,39 +300,39 @@
           "list": false,
           "map" : {
             "city1": {
-              "city": "Berlin",
-              "lat": 52.520007,
-              "lng": 13.404954,
-              "info": "<strong>FRONT-END DEVELOPER </strong><br> GO-POPUP - BERLIN - 2015",
-              "icon": "icons/maps/works-gopopup.png"
-            },
-            "city2": {
               "city": "Belfast",
               "lat": 54.597285,
               "lng": -5.930120,
               "info": "<strong>PROJECT ARCHITECT </strong><br> DEGREE PROJECT ULSTERLINES - BELFAST - 2009/11",
               "icon": "icons/maps/works-ulsterlines.png"
             },
-            "city3": {
-              "city": "Katowice",
-              "lat": 50.264892,
-              "lng": 19.023782,
-              "info": "<strong>ARCHITECTURAL ASSISTANT </strong><br> JOJKO+NAWROCKI ARCHITEKCI - KATOWICE - 2012/13",
-              "icon": "icons/maps/works-ja.png"
+            "city2": {
+              "city": "Clermont-Ferrand",
+              "lat": 45.777222,
+              "lng": 3.087025,
+              "info": "<strong>FLASH WEB DESIGNER </strong><br> AU 10 ET DÉCO - CLERMONT FERRAND - 2011",
+              "icon": "icons/maps/works-au10etdeco.png"
             },
-            "city4": {
+            "city3": {
               "city": "Besancon",
               "lat": 47.237829,
               "lng": 6.024054,
               "info": "<strong>URBAN-ARCHITECT PLANNER </strong><br> AUDAB AGENCE D'URBANISME DE BESANCON - BESANCON - 2011",
               "icon": "icons/maps/works-audab.png"
             },
+            "city4": {
+              "city": "Katowice",
+              "lat": 50.264892,
+              "lng": 19.023782,
+              "info": "<strong>ARCHITECTURAL ASSISTANT </strong><br> JOJKO+NAWROCKI ARCHITEKCI - KATOWICE - 2012/13",
+              "icon": "icons/maps/works-ja.png"
+            },
             "city5": {
-              "city": "Clermont-Ferrand",
-              "lat": 45.777222,
-              "lng": 3.087025,
-              "info": "<strong>FLASH WEB DESIGNER </strong><br> AU 10 ET DÉCO - CLERMONT FERRAND - 2011",
-              "icon": "icons/maps/works-au10etdeco.png"
+              "city": "Madrid",
+              "lat": 40.416775,
+              "lng": -3.703790,
+              "info": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP) - MADRID - 2012/15",
+              "icon": "icons/maps/works-qsdm.png"
             },
             "city6": {
               "city": "Murcia",
@@ -336,18 +342,18 @@
               "icon": "icons/maps/works-bim.png"
             },
             "city7": {
-              "city": "Madrid",
-              "lat": 40.416775,
-              "lng": -3.703790,
-              "info": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP) - MADRID - 2012/15",
-              "icon": "icons/maps/works-qsdm.png"
+              "city": "Berlin",
+              "lat": 52.520007,
+              "lng": 13.404954,
+              "info": "<strong>FRONT-END DEVELOPER </strong><br> GO-POPUP - BERLIN - 2015",
+              "icon": "icons/maps/works-gopopup.png"
             },
             "city8": {
               "city": "Leszno",
               "lat": 51.829760,
               "lng": 16.597281,
-              "info": "<strong>WEB COMPONENTS DEVELOPER </strong><br> C&C TECHNOLOGY - LESZNO - 2015/16",
-              "icon": "icons/maps/works-gopopup.png"
+              "info": "<strong>JAVASCRIPT (POLYMER) DEVELOPER </strong><br> C&C TECHNOLOGY - LESZNO - 2015/16",
+              "icon": "icons/maps/works-cctechnology.png"
             }
           }
         }
@@ -358,7 +364,7 @@
       "title": "works/web",
       "content": {
         "pinitial": {
-          "text": "My strong work experience as a front-end developer during the last 4 years has been beneficial to my career in the field of Web Application Development. "
+          "text": "My strong work experience as a front-end developer during the last 5 years has been beneficial to my career in the field of Web Application Development. "
         },
         "brackets": false,
         "pfinal": {
@@ -366,31 +372,31 @@
           "list": {
             "item1": {
               "icon": "icons/works-cc.png",
-              "title": "<strong>WEB COMPONENTS DEVELOPER </strong><br> C&C TECHNOLOGY - LESZNO (POLAND) - 2016",
-              "text": "// POLYMER COMPONENTS // SCRUM MASTERING // DEVELOPMENT, INTEGRATION AND TESTING // SOFTWARE DESIGN // CREATION DE DEMO PAGES // VERSION CONTROL WITH GITLAB //",
+              "title": "<strong>JAVASCRIPT DEVELOPER (POLYMER)__SCRUM MASTER </strong><br> C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
+              "text": "// DEVELOPMENT, INTEGRATION AND TESTING OF POLYMER WEB COMPONENTS // MAINTANANCE OF MOBILE APPLICATION // SCRUM MASTER: RETROSPECTIVE, REVIEW AND PLANNING // IMPLEMENTATION OF 3rd PARTY MODULES // CREATION OF GULP TASKS FOR BUILDING PROCESS // CONTINOUS INTEGRATION WITH JENKINS // VERSION CONTROL WITH GITLAB //",
               "link": "https://www.cctechnology.pl/"
             },
             "item2": {
               "icon": "icons/works-gopopup.png",
-              "title": "<strong>FRONT-END DEVELOPER </strong><br> GO-POPUP - BERLIN (GERMANY) - 2015",
+              "title": "<strong>FRONT-END DEVELOPER </strong><br> GO-POPUP - BERLIN (GERMANY)__2015",
               "text": "// RESPONSIVE WEB DESING WITH CSS, LESS AND BOOTSTRAP // HANDLE JQUERY, BACKBONE AND SCALA CODING FOR IMPLEMENTATION OF NEW FEATURES // CONFIGURATION OF SCALA BUILD TOOL // DEVELOPMENT, INTEGRATION AND TESTING OF A PHP APPLICATION TO MIGRATE DATA // CUSTOMIZED GOOGLE MAP MARKERS // LANDING PAGES WITH ADVANCED DEVELOPMENT OF WORDPRESS THEMING // APPLY AGILE PROJECT COLLABORATION // VERSION CONTROL WITH GITHUB //",
               "link": "http://www.gopopup.com/en"
             },
             "item3": {
               "icon": "icons/works-qsdm.png",
-              "title": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP) - MADRID (SPAIN) - 2012/15",
-              "text": "// RESEARCH AND GATHER DATA // MOCKUPS AND WEB INTERFACE SKETCHES // WIREFRAMES AND STORYBOARDS // WEB EMULATOR AND INTERACTIVE PROTOTYPES WITH FLASH // CREATION AND POST PRODUCTION OF PROMOTIONAL VIDEOS // CUSTOMIZED DYNAMIC HIGHCHARTS // CUSTOMIZED AJAX AUTOCOMPLETE AND TWITTER TYPEAHEAD IMPLEMENTATION // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER AND DATA VERIFICATION // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN WITH BOOTSTRAP AND CSS MEDIA QUERY // INTEGRATION OF GOOGLE ANALYTICS //",
+              "title": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP)__MADRID (SPAIN)__2012/15",
+              "text": "// MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH // PRODUCTION OF PROMOTIONAL VIDEOS // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN // GOOGLE ANALYTICS //",
               "link": "http://queserademi.es/"
             },
             "item4": {
               "icon": "icons/works-web.png",
-              "title": "<strong>WEB APPLICATION DEVELOPER </strong><br> IES JOSÉ PLANES - MURCIA (SPAIN) - 2013/15",
+              "title": "<strong>WEB APPLICATION DEVELOPER </strong><br> IES JOSÉ PLANES__MURCIA (SPAIN)__2013/15",
               "text": "// JAVA INTERNSHIP MANAGEMENT SYSTEM: { ER-MODEL DOCUMENTS, JBDC APPLICATIONS } // WEB APP PROJECTS: { PHP MVC APPLICATIONS, THEMATIC WEB TUNCC, CHAT & VOTING SURVEY WITH AJAX, MINESWEEPER JQUERY GAME, SYMFONY BUNDLE PROJECT, PORTFOLIO APPLICATION, ADVANCED WORDPRESS - REMODELAHOME, RECIPE LIST WITH ANGULARJS, CLIENT-EMAIL BOX WITH BACKBONE-MARIONETTE } //",
               "link": "http://manueldelpozo.github.io/"
             },
             "item5": {
               "icon": "icons/works-au10etdeco.png",
-              "title": "<strong>FLASH WEB DESIGNER </strong><br> AU 10 ET DÉCO - CLERMONT FERRAND (FRANCE) - 2011",
+              "title": "<strong>FLASH WEB DESIGNER </strong><br> AU 10 ET DÉCO__CLERMONT FERRAND (FRANCE)__2011",
               "text": "// WEB PROJECT MANAGEMENT // USER INTERACTION DESIGN // DEVELOPMENT OF FLASH ANIMATIONS // MOCKUPS AND PAGE LAYOUTS // DREAMVEAWER AND FLASH DESIGN // PHOTOGRAPHY AND MONTAGE //",
               "link": "http://www.au10etdeco.com/"
             }
