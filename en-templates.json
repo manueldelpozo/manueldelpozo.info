@@ -65,8 +65,8 @@
             "item5": {
               "icon": "icons/about-webprofile.png",
               "title": "MY SITES",
-              "text": { "gitlab": "www.gitlab.com/mdelpozo", "github": "www.github.com/manueldelpozo", "web" : "wwww.manueldelpozo.github.io", "arch" : "www.archmanudelpozo.com" },
-              "link": { "gitlab": "www.gitlab.com/mdelpozo", "github": "www.github.com/manueldelpozo", "web" : "https://github.com/manueldelpozo/wa-manueldelpozo.github.io.git", "arch" : "http://manudelpozo.blogspot.com/" }
+              "text": { "gitlab": "git.tkhinnovations.com/u/mdelpozo", "github": "www.github.com/manueldelpozo", "web" : "wwww.manueldelpozo.github.io", "arch" : "www.archmanudelpozo.com" },
+              "link": { "gitlab": "https://git.tkhinnovations.com/u/mdelpozo", "github": "www.github.com/manueldelpozo", "web" : "https://github.com/manueldelpozo/wa-manueldelpozo.github.io.git", "arch" : "http://manudelpozo.blogspot.com/" }
             }
           }
         }
