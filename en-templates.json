@@ -250,25 +250,25 @@
             "item1": {
               "icon": "icons/tech-frontend.png",
               "title": "FRONT-END",
-              "text": "// HTML5 // CSS3: { SASS, LESS } // JAVASCRIPT: { VANILLA JS, POLYMER, BACKBONE-MARIONETTE, ANGULARJS, JQUERY } //",
+              "text": "// JAVASCRIPT: { ES6, POLYMER, ANGULAR JS, BACKBONE-MARIONETTE, JQUERY } // CSS3: { SASS, LESS, BOOTSTRAP } // HTML5: { JADE } //",
               "link": false
             },
             "item2": {
               "icon": "icons/tech-node.png",
               "title": "BUILDING & TESTING",
-              "text": "// NODE JS // NPM // BOWER // GULP // GRUNT // JENKINS // HIPCHAT // WCT // MOCHA JS // CHAI JS // SAUCELAB //",
+              "text": "// NODE JS // NPM // BOWER // GULP // GRUNT // JENKINS // PICARD // ARTIFACTORY // NOLIO // BAMBOO // WCT // MOCHA JS // CHAI JS // SAUCELAB //",
               "link": false
             },
             "item3": {
               "icon": "icons/tech-scrum.png",
               "title": "TEAM WORKFLOW",
-              "text": "// SVG: { GITLAB, GITHUB, TORTOISE } // AGILE: { YOU-TRACK, ATLASSIAN, SCRUMBLR, SLACK } // VIDEO-CONFERENCE: { ZOOM, TEAMVIEWER, SKYPE } //",
+              "text": " // GIT: { GITLAB, GITHUB, STASH + SOURCETREE, TORTOISE } // AGILE: { YOU-TRACK, JIRA, CONFLUENCE, SNOW, SCRUMBLR, SLACK } //",
               "link": false
             },
             "item4": {
               "icon": "icons/tech-backend.png",
               "title": "BACK-END",
-              "text": "// JAVA // PHP: { SYMFONY 2 + DOCTRINE } // PYTHON // XML: { XSL, XSD, XPath } // MYSQL //",
+              "text": "// JAVA: { SPRING + MAVEN } // PHP: { SYMFONY 2.0 + DOCTRINE } // PYTHON // SHELL: { SH, BASH } //  XML: { XSL, XSD, XPATH } // MYSQL //",
               "link": false
             },
             "item5": {
@@ -328,18 +328,11 @@
               "icon": "icons/maps/works-ja.png"
             },
             "city5": {
-              "city": "Madrid",
-              "lat": 40.416775,
-              "lng": -3.703790,
-              "info": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP) - MADRID - 2012/15",
-              "icon": "icons/maps/works-qsdm.png"
-            },
-            "city6": {
               "city": "Murcia",
               "lat": 37.992240,
               "lng": -1.130654,
-              "info": "<strong>BIM ARCHITECT </strong><br> FREELANCER - MURCIA - 2014",
-              "icon": "icons/maps/works-bim.png"
+              "info": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP) - MURCIA - 2012/18",
+              "icon": "icons/maps/works-qsdm.png"
             },
             "city7": {
               "city": "Berlin",
@@ -354,6 +347,20 @@
               "lng": 16.597281,
               "info": "<strong>JAVASCRIPT (POLYMER) DEVELOPER </strong><br> C&C TECHNOLOGY - LESZNO - 2015/16",
               "icon": "icons/maps/works-cctechnology.png"
+            },
+            "city8": {
+              "city": "Madrid",
+              "lat": 40.416775,
+              "lng": -3.703790,
+              "info": "<strong>FRONT-END DEVELOPER</strong><br> BANKIA (GFT GROUP) - MADRID - 2017",
+              "icon": "icons/maps/works-bankia.png"
+            },
+            "city8": {
+              "city": "Brussels",
+              "lat": 50.8503396,
+              "lng": 4.3517103,
+              "info": "<strong>FRONT-END DEVELOPER</strong><br> ING BANK (COGNIZANT) - BRUSSELS - 2017/18",
+              "icon": "icons/maps/works-ing.png"
             }
           }
         }
@@ -371,33 +378,45 @@
           "text": false,
           "list": {
             "item1": {
-              "icon": "icons/works-cc.png",
-              "title": "<strong>JAVASCRIPT DEVELOPER (POLYMER)__SCRUM MASTER </strong><br> C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
-              "text": "// DEVELOPMENT, INTEGRATION AND TESTING OF POLYMER WEB COMPONENTS // MAINTANANCE OF MOBILE APPLICATION // SCRUM MASTER: RETROSPECTIVE, REVIEW AND PLANNING // IMPLEMENTATION OF 3rd PARTY MODULES // CREATION OF GULP TASKS FOR BUILDING PROCESS // CONTINOUS INTEGRATION WITH JENKINS // VERSION CONTROL WITH GITLAB //",
-              "link": "https://www.cctechnology.pl/"
+              "icon": "icons/works-ing.png",
+              "title": "<strong>FRONT-END DEVELOPER </strong><br> ING BANK (COGNIZANT)__BRUSSELS (BELGIUM)__2017/18 ",
+              "text": "// DEVELOPMENT AND DELIVERY OF POLYMER PWA PROGRESSIVE WEB APPs WITHIN THE END-TO-END PROCESS // REUSE OF THE GUIDE UI COMPONENTS // CONTINUOUS INTEGRATION WITH PICARD - ARTIFACTORY - NOLIO // ING AGILE WAY OF WORKING // OMNICHANNEL SQUAD AND TRIBES FOR THE UNITE BE+NL PLATFORM //",
+              "link": "https://www.ing.be/"
             },
             "item2": {
-              "icon": "icons/works-gopopup.png",
-              "title": "<strong>FRONT-END DEVELOPER </strong><br> GO-POPUP - BERLIN (GERMANY)__2015",
-              "text": "// RESPONSIVE WEB DESING WITH CSS, LESS AND BOOTSTRAP // HANDLE JQUERY, BACKBONE AND SCALA CODING FOR IMPLEMENTATION OF NEW FEATURES // CONFIGURATION OF SCALA BUILD TOOL // DEVELOPMENT, INTEGRATION AND TESTING OF A PHP APPLICATION TO MIGRATE DATA // CUSTOMIZED GOOGLE MAP MARKERS // LANDING PAGES WITH ADVANCED DEVELOPMENT OF WORDPRESS THEMING // APPLY AGILE PROJECT COLLABORATION // VERSION CONTROL WITH GITHUB //",
-              "link": "http://www.gopopup.com/en"
+              "icon": "icons/works-bankia.png",
+              "title": "<strong>FRONT-END DEVELOPER__SCRUM MASTER </strong><br> BANKIA (GFT GROUP)__MADRID (SPAIN)__2017",
+              "text": "// DEVELOPMENT AND MAINTENANCE OF ONLINE BUSINESS BANKING ENTERPRISE PLATFORM // RESTFUL WEB SERVICE WITH ANGULARJS // GRUNT AND GULP // GIT AND STASH // CONTINUOUS INTEGRATION WITH BAMBOO // SCRUM TEAM MEMBER //",
+              "link": "https://www.bankia.es/"
             },
             "item3": {
-              "icon": "icons/works-qsdm.png",
-              "title": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP)__MADRID (SPAIN)__2012/15",
-              "text": "// MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH // PRODUCTION OF PROMOTIONAL VIDEOS // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN // GOOGLE ANALYTICS //",
-              "link": "http://queserademi.es/"
+              "icon": "icons/works-cc.png",
+              "title": "<strong>JAVASCRIPT DEVELOPER (POLYMER)__SCRUM MASTER </strong><br> C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
+              "text": "// DESIGN, DEVELOPMENT, INTEGRATION AND TESTING OF POLYMER WEB COMPONENTS FOR A GUI CATALOG // SCRUM MASTER: RETROSPECTIVE, REVIEW AND PLANNING // MAINTENANCE OF MOBILE APPLICATIONS // CREATION OF GULP TASKS FOR BUILDING PROCESS // VERSION CONTROL WITH GITLAB // CONTINUOUS INTEGRATION WITH JENKINS // ",
+              "link": "https://www.cctechnology.pl/"
             },
             "item4": {
+              "icon": "icons/works-gopopup.png",
+              "title": "<strong>FRONT-END DEVELOPER </strong><br> GO-POPUP - BERLIN (GERMANY)__2015",
+              "text": "// RESPONSIVE WEB DESIGN WITH LESS AND BOOTSTRAP // MAINTENANCE OF BACKBONE JS ON A PLAY FRAMEWORK // CONFIGURATION OF SCALA BUILD TOOL // DESIGN AND INTEGRATION OF PHP APPLICATION TO MIGRATE DATA // CUSTOM GOOGLE MAPS MARKERS // ADVANCED DEVELOPMENT OF WORDPRESS THEMES // VERSION CONTROL WITH GITHUB //  ",
+              "link": "http://www.gopopup.com/en"
+            },
+            "item5": {
+              "icon": "icons/works-qsdm.png",
+              "title": "<strong>UI/UX DESIGNER AND FRONT-END DEVELOPER </strong><br> QUESERADEMI (STARTUP)__MADRID (SPAIN)__2012/15",
+              "text": "// MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH  // PRODUCTION OF PROMOTIONAL VIDEOS                           // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN  // GOOGLE ANALYTICS TRACKING // INTEGRATION OF WORDPRESS BLOG // MANAGEMENT //",
+              "link": "http://queserademi.es/"
+            },
+            "item6": {
               "icon": "icons/works-web.png",
               "title": "<strong>WEB APPLICATION DEVELOPER </strong><br> IES JOSÉ PLANES__MURCIA (SPAIN)__2013/15",
               "text": "// JAVA INTERNSHIP MANAGEMENT SYSTEM: { ER-MODEL DOCUMENTS, JBDC APPLICATIONS } // WEB APP PROJECTS: { PHP MVC APPLICATIONS, THEMATIC WEB TUNCC, CHAT & VOTING SURVEY WITH AJAX, MINESWEEPER JQUERY GAME, SYMFONY BUNDLE PROJECT, PORTFOLIO APPLICATION, ADVANCED WORDPRESS - REMODELAHOME, RECIPE LIST WITH ANGULARJS, CLIENT-EMAIL BOX WITH BACKBONE-MARIONETTE } //",
               "link": "http://manueldelpozo.github.io/"
             },
-            "item5": {
+            "item7": {
               "icon": "icons/works-au10etdeco.png",
               "title": "<strong>FLASH WEB DESIGNER </strong><br> AU 10 ET DÉCO__CLERMONT FERRAND (FRANCE)__2011",
-              "text": "// WEB PROJECT MANAGEMENT // USER INTERACTION DESIGN // DEVELOPMENT OF FLASH ANIMATIONS // MOCKUPS AND PAGE LAYOUTS // DREAMVEAWER AND FLASH DESIGN // PHOTOGRAPHY AND MONTAGE //",
+              "text": "// WEB PROJECT MANAGEMENT // USER INTERACTION DESIGN // CREATION OF FLASH ANIMATIONS // MOCKUPS AND PAGE LAYOUTS // DREAMWEAVER AND FLASH DESIGN //",
               "link": "http://www.au10etdeco.com/"
             }
           }
